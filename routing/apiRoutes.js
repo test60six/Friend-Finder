@@ -40,7 +40,7 @@ module.exports = function(app) {
             }
         }
 
-        friends.push(userInput);
+        friendsArray.push(userInput);
 
         res.json({ status: 'OK', matchName: matchName, matchImage: matchImage });
     });
